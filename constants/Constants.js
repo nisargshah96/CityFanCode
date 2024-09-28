@@ -14,7 +14,7 @@ const paths = {
     Posts: "posts",
     Comments: "commnets",
     Albums: "albums",
-    Photon: "photons",
+    Photos: "photos",
     Users: "users"
 }
 

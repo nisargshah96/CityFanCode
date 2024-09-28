@@ -46,6 +46,8 @@ All the users of City `FanCode` should have more than half of their todos task c
 `npm -v` # should print `10.8.2`
 
 # Run the application
+- Clone this repo from `main` branch.
 - Navigate to the `CityFanCode` directory.
-- Run `node index.js`
+- Run `npm install`.
+- Run `node index.js` (Make sure you have installed fnm by following the above steps).
 - The output would look like: ![Output](images/output.png)

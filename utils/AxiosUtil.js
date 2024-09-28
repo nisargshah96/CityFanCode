@@ -30,12 +30,12 @@ export async function makeRequest(requestType, path, searchBy = null, searchVal 
                 break;
 
             default:
-                console.error("Unsupported RequestType passed: ", requestType);
+                console.error("Unsupported RequestType passed: ", requestType); // Custom Logger can be implemented for reusability.
                 break;
         }
             
     } catch(err) {
-        console.error('Error making %s request: %s', requestType, err);
+        console.error('Error making %s request: %s', requestType, err); // Custom Logger can be implemented for reusability.
     }
     return response;
 }
